@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+unless ARGV[0] && ARGV[1]
+  abort 'usage: growlfire [subdomain] [roomname]'
+end
+
+require 'growlfire'
+Growlfire.run ARGV[0], ARGV[1]
