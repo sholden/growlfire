@@ -102,7 +102,7 @@ module Growlfire
   end
 
   def self.icon
-    File.open(File.join(File.dirname(__FILE__), 'logo-cf.png'), 'rb').read
+    File.open(File.join(File.dirname(__FILE__), 'growlfire', 'logo-cf.png'), 'rb').read
   end
 
   def self.debug?
