@@ -106,6 +106,6 @@ module Growlfire
   end
 
   def self.debug?
-    ENV['GROWLFIRE_DEBUG'] = 'true'
+    ENV['GROWLFIRE_DEBUG'] == 'true'
   end
 end
