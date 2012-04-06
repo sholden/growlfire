@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["scott@sshconnection.com"]
   gem.description   = %q{Growlfire provides growl notifications via Campfire's steaming API}
   gem.summary       = %q{Growlfire provides growl notifications via Campfire's steaming API}
-  gem.homepage      = ""
+  gem.homepage      = "http://github.com/sholden/growlfire"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
