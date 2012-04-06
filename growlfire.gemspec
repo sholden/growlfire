@@ -4,8 +4,8 @@ require File.expand_path('../lib/growlfire/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Scott Holden"]
   gem.email         = ["scott@sshconnection.com"]
-  gem.description   = %q{Stream your campfire messages to growl}
-  gem.summary       = %q{Description says it all}
+  gem.description   = %q{Growlfire provides growl notifications via Campfire's steaming API}
+  gem.summary       = %q{Growlfire provides growl notifications via Campfire's steaming API}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'yajl-ruby', '~>1.1'
   gem.add_dependency 'ruby-growl', '~>4.0'
-  gem.add_dependency 'em-http-request'
+  gem.add_dependency 'em-http-request', '~>1.0'
 end

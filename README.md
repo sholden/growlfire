@@ -1,29 +1,20 @@
 # Growlfire
 
-TODO: Write a gem description
+Growlfire provides growl notifications via Campfire's steaming api.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'growlfire'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Growlfire can be installed via RubyGems:
 
     $ gem install growlfire
 
 ## Usage
 
-TODO: Write usage instructions here
+Growlfire needs a Campfire api token, your campfire subdomain, and the name of the room you wish to join.
+The api token can be set via an env variable CAMPFIRE_TOKEN or as a single line in ~/.campfire
 
-## Contributing
+To start growlfire, simply use the command:
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+    $ growlfire mydomain myroom
+
+If you run into problems, you can turn on debug logging to STDOUT with GROWLFIRE_DEBUG=true env var.
